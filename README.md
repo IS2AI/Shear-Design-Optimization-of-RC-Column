@@ -2,8 +2,6 @@
 Deep Neural Network model for the automatic design of rectangular reinforced concrete columns under axial load, biaxial bending and shear forces.
 
 
-# Column-Design-Optimization
-
 ## Requirements:
 1. OS Windows/Linux/Mac.
 2. Anaconda
