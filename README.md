@@ -1,6 +1,7 @@
 # Shear-Design-Optimization-of-RC-Column
 Deep Neural Network model for the automatic design of rectangular reinforced concrete columns under axial load, biaxial bending and shear forces.
 
+[![video_1](https://github.com/IS2AI/Shear-Design-Optimization-of-RC-Column/edit/main/imgs/nn.png)]
 
 ## Requirements:
 1. OS Windows/Linux/Mac.
