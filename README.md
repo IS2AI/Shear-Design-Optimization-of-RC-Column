@@ -40,7 +40,7 @@ The data generation folder contains files for parametric data generation.
 
 - use column.pth  and test.py files for inference.
 
-- use test_min.h5 and test_max.h5 files for minmax normalization of the test sample before extracting network predictions.
+- use train_max__4.h5 and train_min__4.h5 files for minmax normalization of the test sample before extracting network predictions.
 
 ### 4: Design check
 Use check.py to run the check of the network output results.
