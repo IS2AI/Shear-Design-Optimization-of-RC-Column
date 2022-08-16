@@ -1,7 +1,11 @@
 # Shear-Design-Optimization-of-RC-Column
-Deep Neural Network model for the automatic design of rectangular reinforced concrete columns under axial load, biaxial bending and shear forces.
+This repository contains the Deep Neural Network model for the automatic design of rectangular reinforced concrete columns under axial load, biaxial bending and shear forces. The figure below illustrates model geometric configuration that is used to generate the parametric designs.
 
-![nn](https://user-images.githubusercontent.com/57977216/184858249-64a279a7-45ca-47ee-bf5c-d07878a70b6a.png)
+<img  align="center" src="https://user-images.githubusercontent.com/57977216/184859700-c8bc5f4a-b340-43be-a064-6376c200ebbc.png" width="700" height="350">
+
+The model takes as input axial load, biaxial bending, shear in two directions, column height and concrete strength and outputs the section geometry, transverse and longitudinal reinforcement.
+<img  align="center" src="https://user-images.githubusercontent.com/57977216/184858249-64a279a7-45ca-47ee-bf5c-d07878a70b6a.png" width="700" height="350">
+
 
 
 ## Requirements:
@@ -15,7 +19,7 @@ Deep Neural Network model for the automatic design of rectangular reinforced con
 ### 1: Setting working environment
 Create an environment using the env.yaml in Anaconda with the following command:
 
-conda env create -f environment.yml
+conda env create -f environment.yaml
 
 ### 2: Data generation
 The data generation folder contains files for parametric data generation.
