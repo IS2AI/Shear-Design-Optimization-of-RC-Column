@@ -36,9 +36,9 @@ The data generation folder contains files for parametric data generation.
 
 - normalization.py script contrains min-max normalization and preparing the data for network.
 
-- net.py file contrains network file for training the network. 
+- model.py file contrains network file for training the network. 
 
-- use column.pth  and test.py files for inference.
+- use model.pth  and inference.py files for inference.
 
 - use train_max__4.h5 and train_min__4.h5 files for minmax normalization of the test sample before extracting network predictions.
 
