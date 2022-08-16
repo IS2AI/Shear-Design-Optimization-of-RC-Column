@@ -15,7 +15,7 @@ Deep Neural Network model for the automatic design of rectangular reinforced con
 ### 1: Setting working environment
 Create an environment using the env.yaml in Anaconda with the following command:
 
-conda env create -f env.yaml
+conda env create -f environment.yml
 
 ### 2: Data generation
 The data generation folder contains files for parametric data generation.
