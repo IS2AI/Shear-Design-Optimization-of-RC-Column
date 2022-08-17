@@ -1,5 +1,5 @@
 # Shear-Design-Optimization-of-RC-Column
-This repository contains the Deep Neural Network model for the automatic design of rectangular reinforced concrete columns under axial load, biaxial bending and shear forces. The figure below illustrates model geometric configuration that is used to generate the parametric designs.
+This repository contains the Deep Neural Network model for the automatic design of rectangular reinforced concrete columns under axial load, biaxial bending and shear forces. The figure below illustrates model geometric configuration that is used to generate the parametric designs used to train the network.
 
 <img  align="center" src="https://user-images.githubusercontent.com/57977216/184859700-c8bc5f4a-b340-43be-a064-6376c200ebbc.png" width="700" height="350">
 
