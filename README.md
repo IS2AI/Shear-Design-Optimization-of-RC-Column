@@ -32,16 +32,16 @@ The data generation folder contains files for parametric data generation.
 
 
 ### 3: Data pre-processing and network model
-- preprocess.py script contains the data filtration based on monetary cost for the case of 4.0 meters.
+- preprocess.py script contains the data filtration based on monetary cost for all column height and concrete strength combinations.
 
-- normalization.py script contrains min-max normalization and preparing the data for network.
+- normalization.py script contrains min-max normalization of the dataset and splits it into train, test and validation sets.
 
 - nn_model.py file contrains network file for training the network. 
 
-- use model.pth  and inference.py files for inference.
+- use model.pth  and inference.py files for the inference.
 
 - use train_max__4.h5 and train_min__4.h5 files for minmax normalization of the test sample before extracting network predictions.
 
 ### 4: Design check
-Use check.py to run the check of the network output results.
+Use check.py to run the check of the network output results based on the Eurocode.
 
